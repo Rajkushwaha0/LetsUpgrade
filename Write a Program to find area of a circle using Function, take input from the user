@@ -1,0 +1,17 @@
+#Assignment-1
+
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+double radius;
+cout<<"Enter the radius of circle: ";
+cin>>radius;
+cout<<"Area of circle is: ";
+cout<<area_of_circle(radius);
+getch();
+}
+double area_of_circle(double r)
+{
+return 3.14*r*r;
+}
